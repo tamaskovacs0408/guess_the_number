@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number game</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h2 id="enter">Guess the number between 1 and 100.</h2>
+        <h3>Attempts: <span class="attempt_counter js-counter"></span></h3>
+        <p class="output js-outputtext">Enter your guess</p>
+        <input type="number" min="1" max="50" class="userInput js-input">
+        <button type="submit" class="btn submit_btn js-btn">Enter</button>
+        <button class="btn new_game_btn js-new_game">New game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

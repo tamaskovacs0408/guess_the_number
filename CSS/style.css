@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(241, 241, 112);
+    font-family: 'Courier Prime', monospace;
+
+}
+#container {
+    padding: 20px;
+    background: #d8d890;
+    color: black;
+    width: 50rem;
+    height: 25rem;
+    text-align: center;
+    border: 2px solid black;
+}
+#enter {
+    font-family: 'Space Mono', monospace;
+}
+#generate_text {
+    font-size: 1rem;
+}
+p {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 1rem;
+}
+.output {
+    margin: 5px auto;
+}
+.btn {
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+    font-family: 'Courier Prime', monospace;
+    padding: 5px;
+    text-align: center;
+}
+.btn:active {
+    background-color: #3f3f3f;
+    box-shadow: 0 5px rgb(95, 95, 95);
+    transform: translateY(2px);
+}
+.generate-btn {
+    width: 200px;
+    height: auto;
+    background-color: rgb(21, 170, 21);
+    color: white;
+    font-size: 1rem;
+}
+.generate-btn:hover {
+    background-color: green;
+}
+#enter {
+    font-size: 1.5rem;
+}
+input {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px auto 15px auto;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.submit_btn {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: none;
+    width: 120px;
+    height: 45px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem;
+    color: black;
+    border: 2px solid black;
+    background-color: #e9e900;
+}
+.submit_btn:hover {
+    background-color: rgb(241, 241, 112);
+}
+.new_game_btn {
+    width: 150px;
+    margin: 10px;
+    background: gray;
+    color: white;
+}
+.new_game_btn:hover {
+    background: rgb(93, 93, 93);
+}
+
+@media screen and (min-width: 768px) {
+    #container {
+        height: 32rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    #enter {
+        font-size: 2.5rem;
+    }
+    .generate-btn {
+        width: 250px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+    .new_game_btn {
+        width: 200px;
+        font-size: 2rem;
+    }
+}
